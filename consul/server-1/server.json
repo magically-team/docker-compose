@@ -1,6 +1,5 @@
 {
   "server": true,
-  "bootstrap" : true,
   "ui_config": {
     "enabled": true
   },
@@ -10,7 +9,6 @@
   "node_name": "consul-server-1",
   "datacenter": "apple-bot",
   "data_dir": "/consul/data",
-  "bind_addr": "199.168.117.36",
   "retry_join": [
     "consul_2.cookshushu.com",
     "consul_3.cookshushu.com"
@@ -21,6 +19,9 @@
     "grpc": 8502
   },
   "encrypt": "aPuGh+5UDskRAbkLaXRzFoSOcSM+5vAK+NEYOWHJH7w=",
+  "verify_incoming": false,
+  "verify_outgoing": false,
+  "verify_server_hostname": true,
   "log_level": "INFO",
   "watches": [
     {
