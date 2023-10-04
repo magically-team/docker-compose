@@ -8,6 +8,7 @@
   "addresses": {
     "http": "0.0.0.0"
   },
+  "bind_addr": "0.0.0.0",
   "datacenter": "apple-bot",
   "retry_join": [
     "consul-2.cookshushu.com",
