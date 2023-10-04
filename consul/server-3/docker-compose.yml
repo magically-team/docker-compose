@@ -10,4 +10,6 @@ services:
       CONSUL_HTTP_TOKEN: "aee76e7ddf19-e95b599e-7d80-08ad-166e"
     volumes:
       - ./server.json:/consul/config/server.json:ro
+      - /consul/data:/consul/data
+      - /consul/backup:/consul/backup
     command: "agent -bootstrap-expect=2"
