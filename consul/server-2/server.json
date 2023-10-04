@@ -18,8 +18,8 @@
     "grpc": 8502
   },
   "encrypt": "aPuGh+5UDskRAbkLaXRzFoSOcSM+5vAK+NEYOWHJH7w=",
-  "verify_incoming": false,
-  "verify_outgoing": false,
-  "verify_server_hostname": false,
+  "tls.defaults.verify_incoming": false,
+  "tls.defaults.verify_outgoing": false,
+  "tls.internal_rpc.verify_server_hostname": false,
   "log_level": "INFO"
 }
