@@ -21,12 +21,17 @@
   "acl": {
     "enabled": true,
     "default_policy": "deny",
+    "down_policy": "deny",
+    "enable_key_list_policy": true,
     "enable_token_persistence": true,
+    "enable_token_replication": true,
     "tokens": {
-      "master": "e95b599e-166e-7d80-08ad-aee76e7ddf19",
-      "agent": "e95b599e-166e-7d80-08ad-aee76e7ddf19"
+      "default": "aee76e7ddf19-e95b599e-7d80-08ad-166e",
+      "initial_management": "aee76e7ddf19-e95b599e-7d80-08ad-166e",
+      "agent": "aee76e7ddf19-e95b599e-7d80-08ad-166e"
     }
   },
+  "connect": { "enabled": true },
   "tls": {
     "defaults": {
       "verify_incoming": false,

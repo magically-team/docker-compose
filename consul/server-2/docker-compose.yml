@@ -7,7 +7,7 @@ services:
     network_mode: "host"
     restart: always
     environment:
-      CONSUL_HTTP_TOKEN: "e95b599e-166e-7d80-08ad-aee76e7ddf19"
+      CONSUL_HTTP_TOKEN: "aee76e7ddf19-e95b599e-7d80-08ad-166e"
     volumes:
       - ./server.json:/consul/config/server.json:ro
     command: "agent -bootstrap-expect=2"
