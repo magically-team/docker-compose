@@ -26,7 +26,6 @@
     "enable_token_persistence": true,
     "enable_token_replication": true,
     "tokens": {
-      "default": "aee76e7ddf19-e95b599e-7d80-08ad-166e",
       "initial_management": "aee76e7ddf19-e95b599e-7d80-08ad-166e",
       "agent": "aee76e7ddf19-e95b599e-7d80-08ad-166e"
     }
