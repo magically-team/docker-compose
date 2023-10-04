@@ -1,32 +1,24 @@
 {
+  "node_name": "consul-server-2",
   "server": true,
   "ui_config": {
     "enabled": true
   },
-  "addresses": {
-    "http" : "0.0.0.0"
-  },
-  "node_name": "consul-server-2",
-  "datacenter": "apple-bot",
   "data_dir": "/consul/data",
+  "addresses": {
+    "http": "0.0.0.0"
+  },
+  "datacenter": "apple-bot",
   "retry_join": [
     "consul_1.cookshushu.com",
     "consul_3.cookshushu.com"
   ],
   "ports": {
-    "dns": 8600,
-    "http": 8500,
     "grpc": 8502
   },
   "encrypt": "aPuGh+5UDskRAbkLaXRzFoSOcSM+5vAK+NEYOWHJH7w=",
   "verify_incoming": false,
   "verify_outgoing": false,
   "verify_server_hostname": false,
-  "log_level": "INFO",
-  "watches": [
-    {
-      "type": "checks",
-      "handler": "/usr/bin/health-check-handler.sh"
-    }
-  ]
+  "log_level": "INFO"
 }

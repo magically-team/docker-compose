@@ -1,5 +1,5 @@
 {
-  "node_name": "consul-server-1",
+  "node_name": "consul-server-3",
   "server": true,
   "ui_config": {
     "enabled": true
@@ -10,8 +10,8 @@
   },
   "datacenter": "apple-bot",
   "retry_join": [
-    "consul_2.cookshushu.com",
-    "consul_3.cookshushu.com"
+    "consul_1.cookshushu.com",
+    "consul_2.cookshushu.com"
   ],
   "ports": {
     "grpc": 8502
