@@ -10,8 +10,8 @@
   },
   "datacenter": "apple-bot",
   "retry_join": [
-    "consul_1.cookshushu.com",
-    "consul_3.cookshushu.com"
+    "consul-1.cookshushu.com",
+    "consul-3.cookshushu.com"
   ],
   "ports": {
     "grpc": 8502
