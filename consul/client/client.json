@@ -1,0 +1,27 @@
+{
+  "node_name": "consul-client",
+  "data_dir": "/consul/data",
+  "retry_join_wan": [
+    "consul-1.cookshushu.com",
+    "consul-2.cookshushu.com",
+    "consul-3.cookshushu.com"
+  ],
+  "datacenter": "apple-bot",
+  "encrypt": "aPuGh+5UDskRAbkLaXRzFoSOcSM+5vAK+NEYOWHJH7w=",
+  "acl": {
+    "enabled": true,
+    "tokens": {
+      "agent": "aee76e7ddf19-e95b599e-7d80-08ad-166e"
+    }
+  },
+  "tls": {
+    "defaults": {
+      "verify_incoming": false,
+      "verify_outgoing": false
+    },
+    "internal_rpc": {
+      "verify_server_hostname": false
+    }
+  },
+  "log_level": "INFO"
+}

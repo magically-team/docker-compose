@@ -10,7 +10,7 @@
   },
   "bind_addr": "{{GetInterfaceIP \"eth0\"}}",
   "datacenter": "apple-bot",
-  "retry_join": [
+  "retry_join_wan": [
     "consul-2.cookshushu.com",
     "consul-3.cookshushu.com"
   ],
