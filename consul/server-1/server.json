@@ -9,6 +9,7 @@
     "http": "0.0.0.0"
   },
   "bind_addr": "{{GetInterfaceIP \"eth0\"}}",
+  "advertise_addr_wan": "8.210.53.249",
   "datacenter": "apple-bot",
   "retry_join_wan": [
     "consul-2.cookshushu.com",
