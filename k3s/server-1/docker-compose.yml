@@ -3,6 +3,7 @@ version: '3.7'
 services:
   k3s-server:
     image: "rancher/k3s:v1.25.14-k3s1"
+    container_name: k3s-server
     command: server
     tmpfs:
       - /run
