@@ -2,9 +2,7 @@
   "node_name": "consul-client",
   "data_dir": "/consul/data",
   "retry_join_wan": [
-    "consul-1.cookshushu.com",
-    "consul-2.cookshushu.com",
-    "consul-3.cookshushu.com"
+    "8.210.53.249"
   ],
   "datacenter": "apple-bot",
   "encrypt": "aPuGh+5UDskRAbkLaXRzFoSOcSM+5vAK+NEYOWHJH7w=",
