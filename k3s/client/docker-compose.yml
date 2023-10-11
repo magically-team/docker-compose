@@ -14,5 +14,5 @@ services:
     privileged: true
     restart: always
     environment:
-      - K3S_URL=https://server:6443
+      - K3S_URL=https://199.168.117.36:6443
       - K3S_TOKEN=aPuGh+5UDskRAbkLaXRzFoSOcSM+5vAK+NEYOWHJH7w=
